@@ -6,4 +6,6 @@
 * [git alias](git-alias.md)
 * [105\/09\/09](1050909.md)
 * [105\/09\/10](1050910.md)
+* [pdo practice](pdo-practice.md)
+* [註解概念](註解概念.md)
 
