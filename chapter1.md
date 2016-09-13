@@ -2,20 +2,31 @@
 
 first step:
 
-到使用者底下 cd ~ : cd ~\/
+到使用者底下 cd ~ : 
+```
+cd ~/
+```
 
-創建一個新的資料夾mkdir \[filename\] : mkdir project
-
-到新的資料夾底下建立一個laravel專案laravel new \[projectname\]：laravel new first
-
+創建一個新的資料夾mkdir \[filename\] : 
+```
+mkdir project
+```
+到新的資料夾底下建立一個laravel專案laravel new \[projectname\]：
+```
+laravel new first
+```
 @建立一個軟連結for快速開啟sublime text 
-
-ln -s "\/Applications\/Sublime Text 2.app\/Contents\/SharedSupport\/bin\/subl" ~\/bin\/subl
-
-專案創建完後require laravel進來：composer require laravel\/homestead --dev
-
-建立需要的資料：php vendor\/bin\/homestead make
-
+```
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+```
+專案創建完後require laravel進來：composer require 
+```
+laravel/homestead --dev
+```
+建立需要的資料：
+```
+php vendor/bin/homestead make
+```
 以上動作執行完後就可以開始編輯laravel：因為已經建立軟連結，所以只要輸入「subl .」就可以利用sublime text 開啟整個專案，記得subl 後面要空格然後一點
 
 
