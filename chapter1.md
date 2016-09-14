@@ -21,7 +21,7 @@ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/s
 ```
 專案創建完後require laravel進來：composer require 
 ```
-laravel/homestead --dev
+composer require laravel/homestead --dev
 ```
 建立需要的資料：
 ```
