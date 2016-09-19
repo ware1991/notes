@@ -12,4 +12,6 @@
 * [105\/09\/13](1050913.md)
 * [guzzle&lumen](login.md)
 * [art make:filename](art-makefilename.md)
+* [homework](homework.md)
+* [slim](slim.md)
 
