@@ -1,0 +1,55 @@
+#使用twitter API自動抓取使用者的tweet
+
+First step
+---
+到要放project的地方將project clone下來，
+```
+git clone https://github.com/ware1991/NY-Twitter-Wall.git
+```
+每次將project clone下來的第一件事情，就是將專案會用到的插件先安裝好
+```
+composer install
+```
+Second step
+----
+安裝完後，確認git狀態
+```
+git init
+```
+```
+git status
+```
+創建一個新的branch，以區分上傳的功能，
+```
+git checkout -b feature/getUserTimeLine
+```
+Third step
+---
+安裝homestead
+```
+composer require laravel/homestead -dev
+```
+homestead.phar
+```
+php vendor/bin/homestead make
+```
+4st
+---
+啟用 vagrant
+```
+vagrant up
+```
+進入 vagrant
+```
+vagrant ssh
+```
+如果還沒把資料庫建起來，就進入mysql創建一個for專案的資料庫
+```
+mysql -uhomestead -psecret
+```
+```
+CREAT TABLE twitterWall
+```
+記得將homestead.ymal裡的IP改成和sequel pro的ＩＰ一樣
+EX 192.168.19.90
+
