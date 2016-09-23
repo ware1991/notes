@@ -67,6 +67,20 @@ php artisan migrate
 ```
 php artisan migrate:rollback
 ```
+創建跟migration連結的model
+```
+php artisan make:model WallInfomation
+```
+
+
+
+
+
+###@@@如果專案不是自己本地new的，就要下指令來產生新的APP_KEY，
+```
+＄    php artisan key:generate
+```
+
 
 
 
