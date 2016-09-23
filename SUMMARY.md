@@ -12,7 +12,6 @@
 * [105\/09\/13](1050913.md)
 * [guzzle&lumen](login.md)
 * [art make:filename](art-makefilename.md)
-* [homework](homework.md)
 * [slim](slim.md)
 * [好用的插件](php也有day.md)
 
