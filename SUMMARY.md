@@ -14,4 +14,5 @@
 * [art make:filename](art-makefilename.md)
 * [homework](homework.md)
 * [slim](slim.md)
+* [好用的插件](php也有day.md)
 

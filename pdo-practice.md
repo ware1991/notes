@@ -24,7 +24,7 @@ use League/Csv/Reader;
 
 try {
 
- //P20160830-098,好漾旅行社,Facebook粉絲讚,20000,0,1000,21000,,,列標籤,加總 / 廣告費用(NTD) // ['P20160830-098', '好漾旅行社', 'Facebook粉絲讚'] $row1 = $csv->fetchOne();
+
 
  $pdo = new PDO('mysql:host = 192.168.10.90;dbname =ricky','homestead','secret');
 
