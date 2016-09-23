@@ -50,6 +50,26 @@ mysql -uhomestead -psecret
 ```
 CREAT TABLE twitterWall
 ```
-記得將homestead.ymal裡的IP改成和sequel pro的ＩＰ一樣
-EX 192.168.19.90
+記得將homestead.ymal裡的IP改成和sequel pro的ip一樣
+EX:192.168.10.10
+5st
+---
+部署migration
+創建功能所需的table，命名規則採用snake case，如creat_[table_names]_talbe，記得tablename要加s
+```
+php artisan make:migration create_wall_infomations_table --create="wall_infomations"
+```
+將Table的Schema寫好後，執行migrate
+```
+php artisan migrate
+```
+執行完後檢查資料庫，是否有成功創建table，如果成功創建後，執行migrate:rollback
+```
+php artisan migrate:rollback
+```
+
+
+
+
+
 
