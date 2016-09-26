@@ -1,0 +1,1 @@
+以laravel來說，一般會將商業邏輯等API放在Services裡，對資料庫的處理會放在Reposidories

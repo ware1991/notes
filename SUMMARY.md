@@ -16,4 +16,5 @@
 * [好用的插件](php也有day.md)
 * [NY-twitter-wall（環境部署）](ny-twitter-wall.md)
 * [migration 命名規則](migration-命名規則.md)
+* [design pattern＠laravel](程式碼整理＠laravel.md)
 
