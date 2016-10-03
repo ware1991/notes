@@ -1,1 +1,1 @@
-以laravel來說，一般會將商業邏輯等API放在Services裡，對資料庫的處理會放在Reposidories
+以laravel來說，一般會將商業邏輯等API放在Services裡，對資料庫的處理會放在Reposidories，laravel的進入點有兩個，一個是routes、一個是command，這兩個的差異是routes相對應的是Contoller、Command對應的是handle，但都是到Services裡去取method。
