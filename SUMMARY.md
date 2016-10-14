@@ -21,4 +21,5 @@
 * [git](git-commit相關.md)
 * [php STORＭ](php-storｍ.md)
 * [erp](erp.md)
+* [php artisan key:generate](php-artisan-keygenerate.md)
 
