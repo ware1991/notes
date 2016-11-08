@@ -23,4 +23,5 @@
 * [erp](erp.md)
 * [php artisan key:generate](php-artisan-keygenerate.md)
 * [node 安裝](node-安裝.md)
+* [bash](bash.md)
 
