@@ -24,4 +24,5 @@
 * [php artisan key:generate](php-artisan-keygenerate.md)
 * [node 安裝](node-安裝.md)
 * [bash](bash.md)
+* [爬蟲筆記](爬蟲筆記.md)
 
