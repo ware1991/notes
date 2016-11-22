@@ -10,3 +10,6 @@ art make:migration create_wall_infomations_table --create="wall_infomations"
 ```
 php artisan make:model WallInfomation
 ```
+
+database table 使用複數命名
+class 用單數命名
