@@ -6,4 +6,4 @@ npm install -g n
 ```
 ```
 sudo n latest
-```ß
+```
