@@ -27,4 +27,5 @@
 * [vim 顯示行號](vimrc.md)
 * [fish alias](fish-alias.md)
 * [highcharts 圖表建立](hightchar.md)
+* [homestead](homestead.md)
 

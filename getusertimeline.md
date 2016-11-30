@@ -1,17 +1,6 @@
 #把get/user-timeline的method在GetTwitterAPI.php實作
 GetTwitterAPI.php
 ---
-
-
-
-
-
-
-
-
-
-
-
 #註：
 這樣輸出的格式是array，所以相對應的來源資料應該要是array
 
