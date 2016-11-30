@@ -26,4 +26,5 @@
 * [爬蟲筆記](爬蟲筆記.md)
 * [vim 顯示行號](vimrc.md)
 * [fish alias](fish-alias.md)
+* [highcharts 圖表建立](hightchar.md)
 
